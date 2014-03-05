@@ -34,10 +34,10 @@
           <a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a>
         </li>
         <li class="list-group-item list-group-item-inline">
-          <a href="{{site.baseurl}}/dinosaurs/">Dinosaurs</a>
+          <a class="{% if page.url == '/dinosaurs/' %}current{% endif %}" href="{{site.baseurl}}/dinosaurs/">Dinosaurs</a>
         </li>
         <li class="list-group-item list-group-item-inline">
-          <a class="{% if page.url == '/about/' %}current{% endif %}"/about/">About</a>
+          <a class="{% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a>
         </li>
       </ul>
     </nav>
