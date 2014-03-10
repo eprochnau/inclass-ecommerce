@@ -16,7 +16,7 @@ title: Dinosaurs
 <ul>
 	{% for dino in site.pages %}
 		{% if dino.category == 'dinosaur' %}
-			<li>{{dino.url}}</li>
+			<li>{{dino.name}}</li>
 		{% endif %}
 	{% endfor %}
 </ul>
