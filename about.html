@@ -12,3 +12,9 @@ title: Dinosaurs
 		<p>All the dinos that have ever existed.</p>
 	</div>
 </div>
+
+<ul>
+	{% for dino in site.pages %}
+		<li>{{dino.url}}</li>
+	{% endfor %}
+</ul>
