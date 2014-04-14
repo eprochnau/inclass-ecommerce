@@ -1,8 +1,10 @@
 ---
+layout: dinosaurs
 category: dinosaur
 name: Tyrannosaurs
 time_period: Late Certaceous
 diet: Carnivore
+image: land-dinos/hadrosaur.jpg
 ---
 
 The Tyrannosaurus is the most fierce of all dinosaurs!
